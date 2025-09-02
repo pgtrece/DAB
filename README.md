@@ -212,7 +212,7 @@ The `InternVL2.5` folder contains:
 
 The `LLaVA-NeXT-Interleave` folder contains:
 
-1. Inference script on MIHBench: `internvl2.5_eval.py`  
+1. Inference script on MIHBench: `llava_next_eval.py`  
 2. Corresponding transformers file: `modeling_qwen2.py`  
 3. Official GitHub file: `/LLaVA-NeXT/llava/model/llava_arch.py`  
 
