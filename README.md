@@ -175,6 +175,46 @@ You can refer to the content marked with `###OURS###` in our `qwen2.5vl_eval.py`
        return _attention_map
    ```
 
+## 💡 How to Use with Other Models
+
+Please refer specifically to the information marked as **###OURS###** in the provided code.
+
+
+
+### MANTIS
+
+- **Transformers version:** `4.50.3`
+
+The `MANTIS` folder contains:
+
+1. Inference script on MIHBench: `mantis_eval.py`  
+2. Corresponding transformers file: `modeling_llama.py`  
+3. Official MANTIS file: `/Mantis-main/mantis/models/mllava/modeling_llava.py`  
+
+
+
+### InternVL2.5
+
+- **Model used:** `internvl2.5-4B`  
+- **Transformers version:** `4.37.2`
+
+The `InternVL2.5` folder contains:
+
+1. Inference script on MIHBench: `internvl2.5_eval.py`  
+2. Corresponding transformers file: `modeling_qwen2.py`  
+3. HuggingFace official file: `/InternVL2_5-4B/modeling_internvl_chat.py`  
+
+
+
+### LLaVA-NeXT-Interleave
+
+- **Transformers version:** `4.40.0.dev0`
+
+The `LLaVA-NeXT-Interleave` folder contains:
+
+1. Inference script on MIHBench: `internvl2.5_eval.py`  
+2. Corresponding transformers file: `modeling_qwen2.py`  
+3. Official GitHub file: `/LLaVA-NeXT/llava/model/llava_arch.py`  
 
 
 ## 📑 Citation
