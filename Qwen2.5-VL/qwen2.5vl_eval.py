@@ -34,7 +34,7 @@ def eval(question_file,
         
         question = text
         if args.yes_or_no:
-            text += " Please answer with yes or no."
+            text += " Please answer with Yes or No."
         image_file_list = line["image_list"]
         image_path_list = [os.path.join(image_folder,i) for i in image_file_list]
         if "injected" in line:
@@ -148,3 +148,4 @@ if __name__ == "__main__":
          answers_file=args.answer_path,
          image_folder=args.image_folder,
          )
+
