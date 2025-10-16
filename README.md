@@ -68,7 +68,7 @@ The Existence and Count tasks use images from the MSCOCO2014 validation set.
 The Id Consistency task uses images from a subset of CO3D, which can be downloaded [here](https://drive.google.com/drive/folders/1aiI109w3wXUDUxPOAdd_eY-WKnkgK6Vg?usp=sharing).
 
 
-## 🚀 How to Use in MLLM (Example with Qwen2.5-VL)
+## 🚀 How to Use DAB in MLLM (Example with Qwen2.5-VL)
 
 For Qwen2.5-VL, we are using transformers version 4.51.3.
 You can refer to the content marked with `###OURS###` in our `qwen2.5vl_eval.py` and `modeling_qwen2_5_vl.py` files.
@@ -175,7 +175,7 @@ You can refer to the content marked with `###OURS###` in our `qwen2.5vl_eval.py`
        return _attention_map
    ```
 
-## 💡 How to Use with Other Models
+## 💡 How to Use DAB with Other Models
 
 Please refer specifically to the information marked as **###OURS###** in the provided code.
 
